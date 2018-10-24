@@ -1,21 +1,21 @@
-/*This Custom CSS file has not been structured in any particular order. 
+/*This Custom CSS file has not been structured in any particular order.
 
 Modify this file to your hearts content and make your website look awesome!*/
-
-
 body{
-	background-color: #ebebeb;
-	padding-top: 80px;
+	background-color: #FAF9F8;
+
 }
+
+
 
 /*Home*/
 .full-page-bg {
   position: absolute;
-  margin-top: -80px;
+  margin-top: 200px;
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  background-color: rgb(100,100,100);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -26,33 +26,52 @@ body{
 .card{border: none; background-color: transparent;}
 
 /*Navbar Rules*/
-img.nav-bar-img{
-	margin-right: 10px;
+
+
+.navbar-nav a {
+color: #037591;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+letter-spacing: 2.3px;
+text-align: center;
+margin-right: 10px;
 }
 
-.navbar{
-	background-color: #fff;
 
+
+
+.container-nav{
+	background-color: #FAF9F8;
+	padding-top: 40px;
+	margin-left: 10%;
+margin-right: 100px;
+width: 100%;
 }
 
-a.navbar-brand{
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 
-}
 
-/*Floating Nav*/
+
+.logo{
+
+	float: right;
+	}
+	/*Floating Nav*/
 .floating-nav{
 	position: fixed;
 	margin-top: 50px;
-	border-left: 1px solid #727272;
+
 }
 
+.nav-link{
+	margin-right: 30px;
+
+}
 	a.float-nav-link{
-		font-family: 'Lato', Sans-Serif;
+
 		color: #595959;
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
+
 	}
 
 /*Image Rules*/
@@ -65,13 +84,18 @@ img{
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Montserrat', Sans-Serif;
+	font-family:'Merriweather', serif;
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
-		font-size: 90px;
+		font-family: 'Julius Sans One', sans-serif;
+		font-size: 111px;
+		letter-spacing: -15.21px;
+		color:#267285;
 	}
 
+
+}
 	h2.welcome-special-sub{
 		font-family: 'Lato', Sans-Serif;
 		font-size: 30px;
@@ -82,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 		color: #a49727;
 		letter-spacing: -0.5px;
 	}
+
 
 p, li, span, a {
 	font-family: 'Lato', Sans-Serif;
@@ -104,7 +129,9 @@ span.img-caption{
 
 /*Container/class etc Override Rules*/
 .welcome-message{
-	margin-top: 200px;
+	background-image: url("./img/common/home.svg" );
+	margin-top: 180px;
+	margin-left: 138px;
 }
 
 .welcome-button-container{
@@ -127,11 +154,11 @@ span.img-caption{
 }
 
 .master-heading{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .section-heading{
-	padding-top: 100px;	
+	padding-top: 100px;
 }
 
 .slide-show{
@@ -149,4 +176,68 @@ span.img-caption{
 }
 
 
+.sideBox {
+	width: 25px;
+	height: 100%;
+	opacity: 0.20;
+background-color:#267285;
 
+}
+
+div.sideBoxA {
+	right:0px;
+	position: absolute;
+
+}
+
+div.welcome-content {
+	position: absolute;
+
+	width: 100%;
+	height:100%;
+
+	border-left: solid  rgba(38, 114, 133, 0.17)  25px;
+	border-right: solid rgba(38, 114, 133, 0.17) 25px;
+
+}
+
+img.welcome-content {
+position: absolute;
+width: 100%;
+
+}
+
+.textTop {
+	margin-top: 10%;
+height:  65%;
+}
+
+.textTop .firstName{
+		margin-left: 10%;
+}
+
+
+.backgroundBox {
+margin-top: -3%;
+
+height: 100%;
+background-image: url(.img/common/screen.jpg);
+
+}
+
+.backgroundBox h1{
+
+	margin-left: 13%;
+
+}
+
+.backgroungBox img {
+	position: absolute;
+	width: 100%;
+}
+
+#screen {
+	width: 150%;
+	position: absolute;
+
+}
