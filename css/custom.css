@@ -4,15 +4,25 @@ Modify this file to your hearts content and make your website look awesome!*/
 body{
 	background-color: #FAF9F8;
 
-
 }
 
-.transparent {
-
-	background-color: Transparent;
-	border-left: rgba(38,114,133,0.17) solid 18px;
-	border-right: rgba(38,114,133,0.17) solid 18px;
+div.transparent1 {
+	width: 100%;
+	height: 100%;
+	margin: 0; /* Space from this element (entire page) and others*/
+	padding: 0; /*space from content and border*/
+	border-right: rgba(38,114,133,.17) solid;
+		border-width: 25px;
+		border-left: rgba(38,114,133,.17) solid;
+				border-width: 25px;
+	overflow:hidden;
+	display:block;
+	box-sizing: border-box;
+	position: absolute;
+	background-color: transparent;
+	z-index: -1;
 }
+
 
 
 
@@ -39,12 +49,16 @@ es*/
 
 
 .navbar-nav a {
-color: #037591;
+
 font-family: 'Merriweather Sans', sans-serif;
 font-size: 12px;
 letter-spacing: 2.3px;
 text-align: center;
 margin-right: 10px;
+}
+
+.navbar-light, .navbar-nav {
+color: #037591;
 }
 
 
@@ -62,6 +76,9 @@ opacity: 0.9;
 }
 
 
+.firstName {
+	padding-top: 8%;
+}
 .container-tall {
 	padding-left: 10%;
 	padding-top: 10%;
@@ -171,17 +188,27 @@ span.img-caption{
 
 .welcome-button-container{
 	margin-top: 20px;
+
 }
 
 .welcome-button{
-	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #000;
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 15px;
-	color: #000;
-	text-transform: uppercase;
+	background-color: rgba(250,249,248,.23);
+	border-radius: 2px;
+	border: transparent;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+font-weight: lighter;
+width: 30%;
+display: block;
+	padding: 30px;
+	float: right;
+margin-right: 10%;
+
+
 }
+
 
 .welcome-button:hover{
 	background-color: #000;
@@ -236,11 +263,7 @@ background-color:#267285;
 
 }
 
-div.sideBoxA {
-	right:0px;
-	position: absolute;
 
-}
 
 div.welcome-content {
 	position: absolute;
@@ -248,8 +271,6 @@ div.welcome-content {
 	width: 100%;
 	height:100%;
 
-	border-left: solid  rgba(38, 114, 133, 0.17)  25px;
-	border-right: solid rgba(38, 114, 133, 0.17) 25px;
 
 }
 
@@ -271,22 +292,23 @@ height:  65%;
 
 .backgroundBox {
 margin-top: -3%;
-
+z-index: -1;
 height: 100%;
-background-image: url(.img/common/screen.jpg);
 
+background-image: url("file:///Users/gabriellemchugh/Desktop/-Deco2200-Gabrielle-Portfolio/img/common/Group.jpg");
+background-size: cover;
+opacity: 0.8;
 }
+
 
 .backgroundBox h1{
-
+	z-index: 1;
 	margin-left: 13%;
-
+margin-top: -3%;
+color: white;
+display: block;
 }
 
-.backgroungBox img {
-	position: absolute;
-	width: 100%;
-}
 
 #screen {
 	width: 150%;
@@ -387,7 +409,7 @@ img.image-text {
 }
 
 
-
+]
 .image-text {
 	display: block;
 }
@@ -397,6 +419,12 @@ img.image-text {
 	background-colour: black;
 }
 
-.custom-toggler.navbar-toggler-icon {
-  border-color: rgb(255,102,203);
+.aboutMe h6 {
+
+	padding-left: 13%;
+	letter-spacing: 3px;
+	color: white;
+	line-height: 200%;
+	font-weight: lighter;
+	font-size: 12px;
 }
