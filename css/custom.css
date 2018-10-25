@@ -33,7 +33,9 @@ body{
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
-/*Navbar Rules*/
+/*Navbar Rul
+es*/
+
 
 
 .navbar-nav a {
@@ -103,7 +105,8 @@ img{
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
-
+	Currently, moving house is strenuous and time consuming process that is considered a negative experience by most. Every step involved pain points such as packing and organising belongings, physical strain and security of items.
+	We hypothesis that the time and effort required in moving house could be relieved by the user of autonomous vehicles. So, we have created an autonomous removal service to create a less-taxing, efficient and streamlined process of moving houses. Our process lead us down many different routes, but with user testing we honed our focus on a simple organisation and booking service that efficiently delivers all there items to multiple locations in accordance with their needs.
 
 }
 
@@ -156,6 +159,7 @@ span.img-caption{
 	font-size: 12px;
 	font-weight: 500;
 	padding: 10px 0px 10px 0px;
+
 }
 
 /*Container/class etc Override Rules*/
@@ -349,12 +353,15 @@ text-transform: uppercase;
 		display: inline-block;
 }
 
+a.active {
+font-weight: bold;
+}
 
 .accordion p {
 	padding-left: 10px;
 	padding-right: 100px;
 }
-.active, .accordion:hover {
+.active1, .accordion:hover {
     background-color:#FC7871;
 }
 
@@ -365,4 +372,31 @@ padding-right: 10%;
 }
 .accordion, .section-heading {
 	padding-left: 2%;
+}
+
+.image-text div {
+	float: left;
+	width: 50%;
+	display: inline-block;
+
+}
+
+img.image-text {
+	width: 70%;
+
+}
+
+
+
+.image-text {
+	display: block;
+}
+
+
+.infobox {
+	background-colour: black;
+}
+
+.custom-toggler.navbar-toggler-icon {
+  border-color: rgb(255,102,203);
 }
