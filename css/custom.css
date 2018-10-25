@@ -4,6 +4,14 @@ Modify this file to your hearts content and make your website look awesome!*/
 body{
 	background-color: #FAF9F8;
 
+
+}
+
+.transparent {
+
+	background-color: Transparent;
+	border-left: rgba(38,114,133,0.17) solid 18px;
+	border-right: rgba(38,114,133,0.17) solid 18px;
 }
 
 
@@ -42,13 +50,26 @@ margin-right: 10px;
 
 .container-nav{
 	background-color: #FAF9F8;
-	padding-top: 40px;
-	margin-left: 10%;
-margin-right: 100px;
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-left: 10%;
+padding-right: 8%;
+padding-bottom: 10px;
 width: 100%;
+opacity: 0.9;
 }
 
 
+.container-tall {
+	padding-left: 10%;
+	padding-top: 10%;
+text-align: center;
+}
+
+.container-footer {
+	width: 100%;
+	height: 90px;
+}
 
 .logo{
 
@@ -57,7 +78,9 @@ width: 100%;
 	/*Floating Nav*/
 .floating-nav{
 	position: fixed;
-	margin-top: 50px;
+	margin-top: 10%;
+	background-color: black;
+	border: black solid;
 
 }
 
@@ -66,7 +89,7 @@ width: 100%;
 
 }
 	a.float-nav-link{
-
+border
 		color: #595959;
 		font-size: 14px;
 		font-weight: 600;
@@ -80,12 +103,15 @@ img{
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
+
+
 }
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
 	margin-bottom: 20px;
+		color:#267285;
 }
 	h1.welcome-special{
 		font-family: 'Julius Sans One', sans-serif;
@@ -102,14 +128,16 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h3{
-		text-transform: uppercase;
-		color: #a49727;
-		letter-spacing: -0.5px;
+font-size: 20px;
+		font-family: 'Merriweather Sans', sans-serif;
+		color: #267285;
+		text-align: left;
+
+
 	}
 
 
-p, li, span, a {
-	font-family: 'Lato', Sans-Serif;
+p, li, span, a {font-family: 'Lato', Sans-Serif;
 	text-align: justify;
 	font-weight: 300;
 }
@@ -117,7 +145,10 @@ p, li, span, a {
 	p{
 		color: #494949;
 		line-height: 30px;
-		margin-bottom: 25px;
+		margin-bottom: 50px;
+padding-left: 2%;
+		padding-right: 130px;
+
 	}
 
 span.img-caption{
@@ -153,12 +184,29 @@ span.img-caption{
 	border-color: #000;
 }
 
-.master-heading{
+.master-heading h1{
 	padding-top: 50px;
+	color: #267285;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+	letter-spacing: -6.21px;
+
 }
 
+.header-scroll {
+	border-top: double #FC7871;
+	border-bottom: solid 1px #FC7871;
+	height: 30px;
+	width: 100%;
+
+}
+
+
+
+
 .section-heading{
-	padding-top: 100px;
+
+	padding-top: 50px;
 }
 
 .slide-show{
@@ -240,4 +288,81 @@ background-image: url(.img/common/screen.jpg);
 	width: 150%;
 	position: absolute;
 
+}
+
+
+.scroll-jump li {
+	display: inline;
+	padding-right: 10%;
+
+}
+
+
+
+.scroll-jump a{
+color: black;
+
+}
+
+.scroll-jump ul {
+	padding-top: 10px;
+	display: center;
+
+}
+
+
+.blue-section {
+	margin-top: 50px;
+		margin-bottom: 50px;
+	background-color: #6597A6;
+}
+
+
+.blue-section h3{
+	color: white;
+}
+
+.blue-section p{
+	color: #FAF9F8;
+}
+
+
+
+
+.accordion {
+    background-color:  #6597A6;
+		font-family: 'Merriweather Sans', sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.8s;
+		margin-top: 3%;
+		display: inline-block;
+}
+
+
+.accordion p {
+	padding-left: 10px;
+	padding-right: 100px;
+}
+.active, .accordion:hover {
+    background-color:#FC7871;
+}
+
+.panel {
+padding-right: 10%;
+    display: none;
+
+}
+.accordion, .section-heading {
+	padding-left: 2%;
 }
