@@ -192,12 +192,12 @@ span.img-caption{
 }
 
 .welcome-button{
-	background-color: rgba(250,249,248,.23);
+	background-color: rgba(250,249,248,.53);
 	border-radius: 2px;
 	border: transparent;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 20px;
-	color: white;
+	color: #374B5C;
 	letter-spacing: 1px;
 font-weight: lighter;
 width: 30%;
@@ -211,8 +211,7 @@ margin-right: 10%;
 
 
 .welcome-button:hover{
-	background-color: #000;
-	border-color: #000;
+	background-color: #FC7871;
 }
 
 .master-heading h1{
@@ -295,7 +294,7 @@ margin-top: -3%;
 z-index: -1;
 height: 100%;
 
-background-image: url("file:///Users/gabriellemchugh/Desktop/-Deco2200-Gabrielle-Portfolio/img/common/Group.jpg");
+background-image: url("https://source.unsplash.com/y8iR4t4MTF8/1300x700");
 background-size: cover;
 opacity: 0.8;
 }
