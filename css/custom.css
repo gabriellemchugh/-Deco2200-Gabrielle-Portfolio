@@ -249,16 +249,22 @@ margin-right: 10%;
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
+	background-color:#267285 ;
 	border-top: 1px solid #727272;
+
+
 }
 
+.footer p {
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+}
 
 .sideBox {
 	width: 25px;
 	height: 100%;
 	opacity: 0.20;
-background-color:#267285;
+background-color:;
 
 }
 
@@ -432,7 +438,7 @@ h6.title1 {
 border-left: #FC7871 solid;
 
 margin-bottom: 10%;
-padding-right: 10%;
+width: 100%;
 
 }
 
@@ -448,11 +454,57 @@ padding-right: 10%;
 }
 
 .title2{
+	margin-bottom: 10%;
 	margin-top: 10%;
 	text-align: center;
 }
+:hover.title2 {
+	color: #81BF96;
+	animation-duration: 2s;
 
-h6.para {
-	margin-top: 10%; 
+}
+
+.para p{
+	margin-top: 10%;
 font-weight: lighter;
+}
+
+
+li {
+	margin-left: 10%;
+}
+
+75% {
+  font-size: 300%;
+  margin-top: 10%;
+  width: 150%;
+}
+
+.animation2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-top: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+}
+.imgs img {
+width: 30%;
+display: inline-block;
+
 }
