@@ -395,28 +395,22 @@ padding-right: 10%;
 	padding-left: 2%;
 }
 
-.image-text div {
-	float: left;
-	width: 50%;
-	display: inline-block;
-
-}
-
-img.image-text {
-	width: 70%;
-
-}
-
-
-]
-.image-text {
-	display: block;
-}
 
 
 .infobox {
 	background-colour: black;
 }
+
+iframe.adobe-xd {
+	border-radius: 10px;
+	border-top: black solid 30px;
+		border-left: black solid 8px;
+			border-right: black solid 8px;
+				border-bottom: black solid 60px;
+			display:inline;
+}
+
+
 
 .aboutMe h6 {
 
@@ -427,3 +421,30 @@ img.image-text {
 	font-weight: lighter;
 	font-size: 12px;
 }
+
+h6.title1 {
+	font-weight: lighter;
+
+}
+
+.centre p {
+border-left: #FC7871 solid;
+
+
+padding-right: 10%;
+
+}
+
+.boxbox {
+	width: 500px;
+	height: 100px;
+	background-color: red;
+
+}
+.introduct {
+	background-color: black;
+	width: 100px;
+}
+
+video {
+width: 120%; 
