@@ -506,6 +506,8 @@ li {
 .imgs img {
 width: 30%;
 display: inline-block;
+margin-top: 5%;
+margin-bottom: 5%; 
 
 }
 
@@ -518,4 +520,8 @@ iframe.mockup1 {
 	width: 500px;
 	display: inline-block;
 
+}
+
+div.row {
+	display: inline-block;
 }
