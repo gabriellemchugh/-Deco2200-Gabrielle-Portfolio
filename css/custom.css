@@ -447,4 +447,5 @@ padding-right: 10%;
 }
 
 video {
-width: 120%; 
+width: 100%;
+border: black solid;
