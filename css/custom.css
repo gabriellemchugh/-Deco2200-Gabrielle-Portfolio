@@ -372,6 +372,7 @@ text-transform: uppercase;
     transition: 0.8s;
 		margin-top: 3%;
 		display: inline-block;
+
 }
 
 a.active {
@@ -430,7 +431,7 @@ h6.title1 {
 .centre p {
 border-left: #FC7871 solid;
 
-
+margin-bottom: 10%;
 padding-right: 10%;
 
 }
@@ -446,6 +447,12 @@ padding-right: 10%;
 	width: 100px;
 }
 
-video {
-width: 100%;
-border: black solid;
+.title2{
+	margin-top: 10%;
+	text-align: center;
+}
+
+h6.para {
+	margin-top: 10%; 
+font-weight: lighter;
+}
